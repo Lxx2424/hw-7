@@ -1,0 +1,108 @@
+.header{
+    background-color: #212529;
+    width: auto;
+    height: 54px;
+    padding: 10px 25px;
+
+    h2{
+        color: #fed136;
+        font-size: 25px;
+    }
+    li{
+        display: inline-block;
+        float: right;
+        color: whitesmoke;
+        font-size: 25px;
+        padding: 10px 25px;
+    }
+}
+.sekil{
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 83vh;  
+    text-align: center;
+    color: whitesmoke;
+}
+.word{
+    padding:250px 25px;
+    font-size: 55px;
+}
+.craft{
+    background-color: #fed136;
+    border-color: #fed136;
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 7px;
+    margin-top: 55px;
+    color:white;
+}
+.center{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.reng h4{
+    color: #212529;
+    margin: 15px 0;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.col4{
+    text-align: center;
+}
+.reng p{
+    color: #6c757d;
+}
+.icon{
+    padding: 100px 0;
+}
+.orta{
+    background-color: #f8f9fa;
+    text-align: center;  
+}
+.orta{
+    h1{
+        padding: 35px 20px;
+    }
+}
+.poto h4{
+    font-weight: bolder;
+    padding: 10px;
+}
+.go{
+    position: relative;
+
+    &:hover{
+
+        .qutu{
+            opacity: 0.82;
+            transform: scale(1);
+            font-size: 10px;
+            text-align: center;
+            background: #fed136;
+            transition: all 0.5s;
+        }
+    }
+                .box1 {
+                padding: 150px 20px;
+                
+    
+                h1{
+                color: whitesmoke;
+            }
+        
+        }
+        .qutu{
+            
+            position: absolute;
+            top:0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transform: scale(0);
+    
+       }
+    
+    }
